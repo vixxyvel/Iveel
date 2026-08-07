@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+}
+
+:root {
+  --cut-lg: 12px;
+  --cut-sm: 8px;
+  --cut-border: 11px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-cut {
+  clip-path: polygon(
+    var(--cut-lg) 0%, calc(100% - var(--cut-lg)) 0%, 100% var(--cut-lg), 100% calc(100% - var(--cut-lg)),
+    calc(100% - var(--cut-lg)) 100%, var(--cut-lg) 100%, 0% calc(100% - var(--cut-lg)), 0% var(--cut-lg)
+  );
+}
+
+.btn-cut-border {
+  clip-path: polygon(
+    var(--cut-lg) 0%, calc(100% - var(--cut-lg)) 0%, 100% var(--cut-lg), 100% calc(100% - var(--cut-lg)),
+    calc(100% - var(--cut-lg)) 100%, var(--cut-lg) 100%, 0% calc(100% - var(--cut-lg)), 0% var(--cut-lg)
+  );
+  position: relative;
+  background: white;
+}
+
+.btn-cut-border::before {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  background: black;
+  clip-path: polygon(
+    var(--cut-border) 0%, calc(100% - var(--cut-border)) 0%, 100% var(--cut-border), 100% calc(100% - var(--cut-border)),
+    calc(100% - var(--cut-border)) 100%, var(--cut-border) 100%, 0% calc(100% - var(--cut-border)), 0% var(--cut-border)
+  );
+  z-index: 0;
+}
+
+.btn-cut-border > * {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-cut-sm {
+  clip-path: polygon(
+    var(--cut-sm) 0%, calc(100% - var(--cut-sm)) 0%, 100% var(--cut-sm), 100% calc(100% - var(--cut-sm)),
+    calc(100% - var(--cut-sm)) 100%, var(--cut-sm) 100%, 0% calc(100% - var(--cut-sm)), 0% var(--cut-sm)
+  );
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.anim-stagger {
+  opacity: 0;
+  animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-fade {
+  opacity: 0;
+  animation: fadeIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom scrollbar for glassmorphism modals */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+

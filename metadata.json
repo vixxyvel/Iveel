@@ -1,0 +1,6 @@
+{
+  "name": "VortxLab | Iveel Portfolio",
+  "description": "Full-screen immersive landing page for Iveel built with VortxLab Creations aesthetic",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
