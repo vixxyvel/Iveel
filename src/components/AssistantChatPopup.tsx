@@ -72,7 +72,17 @@ export const AssistantChatPopup: React.FC = () => {
         })
       });
 
-      const data = await res.json();
+      const contentType = res.headers.get('content-type') || '';
+      let data: any;
+
+      if (contentType.includes('application/json')) {
+        data = await res.json();
+      } else {
+        const rawText = await res.text();
+        throw new Error(
+          `Vercel дээр API сервер олдсонгүй эсвэл GEMINI_API_KEY тохируулаагүй байна. (Response: ${rawText.slice(0, 120)})`
+        );
+      }
 
       if (!res.ok) {
         throw new Error(data.error || 'Хариулт авч чадсангүй.');
