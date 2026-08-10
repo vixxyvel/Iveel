@@ -1,4 +1,13 @@
-export type ModalType = 'synergy' | 'synthesis' | 'discover' | 'music' | 'idol' | null;
+export type ModalType = 'synergy' | 'synthesis' | 'discover' | 'music' | 'idol' | 'games' | null;
+
+export interface AnimeQuestion {
+  id: number;
+  emojis: string;
+  answer: string;
+  options: string[] | string;
+  hint?: string;
+  image?: string;
+}
 
 export interface ChatMessage {
   id: string;

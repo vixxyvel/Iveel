@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "emojis": "👧🏻💅🎀🏫",
+    "answer": "Mean Girls",
+    "options": ["Mean Girls", "Nana", "Skins", "Black Swan"],
+    "hint": "💅 A new girl enters a popular clique at school.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Mean_Girls_film_poster.png/250px-Mean_Girls_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+  },
+  {
+    "id": 2,
+    "emojis": "👩🏻🔪🩸👘",
+    "answer": "Kill Bill",
+    "options": ["Kill Bill", "Black Swan", "Death Note", "Uzumaki"],
+    "hint": "🔪 A woman seeks revenge after being left for dead.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Kill_Bill_Volume_1.png/250px-Kill_Bill_Volume_1.png"
+  },
+  {
+    "id": 3,
+    "emojis": "📓✍️💀🍎",
+    "answer": "Death Note",
+    "options": ["Death Note", "Kakegurui", "Uzumaki", "Alice in Borderland"],
+    "hint": "📓 A mysterious notebook can kill anyone whose name is written inside.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Death_Note_Characters.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+  },
+  {
+    "id": 4,
+    "emojis": "🎲💰👩🏻😈",
+    "answer": "Kakegurui",
+    "options": ["Kakegurui", "Death Note", "Nana", "Skins"],
+    "hint": "🎲 At an elite school, everything revolves around gambling.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYTkyYWViY2UtYTgzOS00MWM0LTg2NzUtZmQ5ODQzMDJkNjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 5,
+    "emojis": "🃏❤️♠️🏃🏻",
+    "answer": "Alice in Borderland",
+    "options": ["Alice in Borderland", "Stranger Things", "Kakegurui", "Death Note"],
+    "hint": "🃏 People must play deadly games to survive.",
+    "image": "https://static.wikia.nocookie.net/aliceinborderland/images/8/89/Mainpage_wiki_Joker.png/revision/latest/scale-to-width-down/2560?cb=20260131170806"
+  },
+  {
+    "id": 6,
+    "emojis": "🚲👧🏻👾🔦",
+    "answer": "Stranger Things",
+    "options": ["Stranger Things", "Alice in Borderland", "Skins", "Uzumaki"],
+    "hint": "🔦 A group of kids discovers a terrifying supernatural world.",
+    "image": "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTWGrLjDUXHyZZwVT2_kjTXOq8nF8IBgEL5Gp3i97xghSCY3z5nsAKDRMm5qmQ9KNUFFnbWufml7YIz9hVHDoBxpqsrKS_S-VS_5.jpg?r=94b"
+  },
+  {
+    "id": 7,
+    "emojis": "🌀👁️🏘️😱",
+    "answer": "Uzumaki",
+    "options": ["Uzumaki", "Black Swan", "Death Note", "Alice in Borderland"],
+    "hint": "🌀 A strange spiral-shaped curse takes over a town.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzc3OGYwMWEtNDVjYS00MGI3LWIzOGMtZTQ2NjQ3Njk3MzAyXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg"
+  },
+  {
+    "id": 8,
+    "emojis": "🎸👩🏻👩🏻❤️💔",
+    "answer": "Nana",
+    "options": ["Nana", "Skins", "Kill Bill", "Black Swan"],
+    "hint": "🎸 Two girls with the same name form a complicated friendship.",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjRmOWJmMDgtYjBjMS00OTg1LWJmZTItZTY2MjJlODgxNmUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 9,
+    "emojis": "🦢🩰🖤🤍",
+    "answer": "Black Swan",
+    "options": ["Black Swan", "Kill Bill", "Nana", "Uzumaki"],
+    "hint": "🩰 A ballerina becomes obsessed with perfection and her darker side.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg"
+  },
+  {
+    "id": 10,
+    "emojis": "👩🏻🦰🍺🎸💊🎉",
+    "answer": "Skins",
+    "options": ["Skins", "Nana", "Stranger Things", "Kakegurui"],
+    "hint": "🎉 Teenagers navigate friendship, love, parties, and self-destruction.",
+    "image": "https://m.media-amazon.com/images/M/MV5BNTBhMjc1ZmMtZDgxMi00ZjdhLWE1ZTktYWQ5YTI0MzE2MTFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  }
+]

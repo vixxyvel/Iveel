@@ -6,9 +6,10 @@ import { IVEEL_PROFILE } from '../data/profileData';
 interface ProfileModalProps {
   type: ModalType;
   onClose: () => void;
+  onOpenGames?: () => void;
 }
 
-export const ProfileModal: React.FC<ProfileModalProps> = ({ type, onClose }) => {
+export const ProfileModal: React.FC<ProfileModalProps> = ({ type, onClose, onOpenGames }) => {
   const [activeTab, setActiveTab] = useState<'bio' | 'music' | 'shows' | 'games'>(
     type === 'synergy' ? 'music' : type === 'synthesis' ? 'shows' : 'bio'
   );
@@ -267,6 +268,33 @@ export const ProfileModal: React.FC<ProfileModalProps> = ({ type, onClose }) => 
           {/* TAB 4: GAMES */}
           {activeTab === 'games' && (
             <div className="space-y-4 anim-fade">
+              {/* Featured Minigame: Anime Guesser */}
+              <div className="bg-gradient-to-r from-purple-900/40 to-blue-900/40 border border-purple-400/40 p-6 btn-cut flex flex-col md:flex-row items-center justify-between gap-4">
+                <div>
+                  <span className="text-[10px] font-mono text-purple-300 uppercase tracking-widest block mb-1">
+                    FEATURED MINIGAME // 🎮 МИНИЙ ТОГЛООМУУД
+                  </span>
+                  <h4 className="text-xl font-bold text-white flex items-center gap-2">
+                    Movie Guesser <span className="text-xs font-normal text-purple-200">Emoji Таавар</span>
+                  </h4>
+                  <p className="text-xs text-white/70 mt-1 font-light max-w-md">
+                    Emoji-г тааж кино болон цувралын нэрийг олох сонирхолтой мини тоглоом. 20 секундын таймер, 2 амьтай!
+                  </p>
+                </div>
+                {onOpenGames && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      onClose();
+                      onOpenGames();
+                    }}
+                    className="px-6 py-3 bg-purple-500 hover:bg-purple-400 text-white font-bold text-xs uppercase tracking-wider btn-cut transition-all cursor-pointer shrink-0 shadow-lg"
+                  >
+                    🎮 Тоглоом Эхлүүлэх
+                  </button>
+                )}
+              </div>
+
               <div className="bg-white/5 border border-white/10 p-6 btn-cut flex items-center justify-between">
                 <div>
                   <span className="text-[10px] font-mono text-white/40 uppercase tracking-widest block mb-1">METAVERSE & GAMING</span>

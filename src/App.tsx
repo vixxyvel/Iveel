@@ -4,6 +4,7 @@ import { HeroSection } from './components/HeroSection';
 import { ProfileModal } from './components/ProfileModal';
 import { IdolChatModal } from './components/IdolChatModal';
 import { AssistantChatPopup } from './components/AssistantChatPopup';
+import { GamesModal } from './components/GamesModal';
 import { ModalType } from './types';
 
 export default function App() {
@@ -61,11 +62,18 @@ export default function App() {
         <ProfileModal
           type={activeModal}
           onClose={handleCloseModal}
+          onOpenGames={() => handleOpenModal('games')}
         />
 
         {/* Idol Coach Chat Modal */}
         <IdolChatModal
           isOpen={activeModal === 'idol'}
+          onClose={handleCloseModal}
+        />
+
+        {/* Games Modal - Anime Guesser */}
+        <GamesModal
+          isOpen={activeModal === 'games'}
           onClose={handleCloseModal}
         />
 

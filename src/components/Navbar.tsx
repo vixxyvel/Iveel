@@ -27,8 +27,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenModal, audioMuted, onToggl
       >
         <button
           type="button"
+          onClick={() => onOpenModal('games')}
+          className="btn-cut px-5 py-3 bg-gradient-to-r from-purple-600/80 to-blue-600/80 hover:from-purple-500 hover:to-blue-500 text-white border border-purple-400/50 text-sm font-bold transition-transform hover:scale-105 active:scale-95 cursor-pointer flex items-center gap-2 shadow-lg"
+        >
+          <span>🎮 Миний тоглоомууд</span>
+        </button>
+
+        <button
+          type="button"
           onClick={() => onOpenModal('idol')}
-          className="btn-cut px-5 py-3 bg-white/15 hover:bg-white/30 text-white border border-white/30 text-sm font-semibold transition-transform hover:scale-105 active:scale-95 cursor-pointer flex items-center gap-2"
+          className="hidden sm:flex btn-cut px-5 py-3 bg-white/15 hover:bg-white/30 text-white border border-white/30 text-sm font-semibold transition-transform hover:scale-105 active:scale-95 cursor-pointer items-center gap-2"
         >
           <span>🤖 My Idol</span>
         </button>
