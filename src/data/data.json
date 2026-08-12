@@ -1,82 +1,362 @@
 [
   {
     "id": 1,
-    "emojis": "👧🏻💅🎀🏫",
-    "answer": "Mean Girls",
-    "options": ["Mean Girls", "Nana", "Skins", "Black Swan"],
-    "hint": "💅 A new girl enters a popular clique at school.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ac/Mean_Girls_film_poster.png/250px-Mean_Girls_film_poster.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+    "emojis": "📓👤",
+    "answer": "Light",
+    "options": ["L", "Misa", "Light"],
+    "image": "",
+    "hint": "📓 Death Note дэвтэрийн анхны эзэмшигч 'Кира'",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 2,
-    "emojis": "👩🏻🔪🩸👘",
-    "answer": "Kill Bill",
-    "options": ["Kill Bill", "Black Swan", "Death Note", "Uzumaki"],
-    "hint": "🔪 A woman seeks revenge after being left for dead.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Kill_Bill_Volume_1.png/250px-Kill_Bill_Volume_1.png"
+    "emojis": "🕵️‍♂️🍎",
+    "answer": "L",
+    "options": ["Light", "L", "Ryuk"],
+    "image": "",
+    "hint": "🕵️ Дэлхийн шилдэг нууц мөрдөгч, чихэрт дуртай",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 3,
-    "emojis": "📓✍️💀🍎",
-    "answer": "Death Note",
-    "options": ["Death Note", "Kakegurui", "Uzumaki", "Alice in Borderland"],
-    "hint": "📓 A mysterious notebook can kill anyone whose name is written inside.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Death_Note_Characters.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+    "emojis": "👻📓",
+    "answer": "Ryuk",
+    "options": ["Ryuk", "Misa", "Light"],
+    "image": "",
+    "hint": "🍎 Алим идэх дуртай үхлийн бурхан (Shinigami)",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 4,
-    "emojis": "🎲💰👩🏻😈",
-    "answer": "Kakegurui",
-    "options": ["Kakegurui", "Death Note", "Nana", "Skins"],
-    "hint": "🎲 At an elite school, everything revolves around gambling.",
-    "image": "https://m.media-amazon.com/images/M/MV5BYTkyYWViY2UtYTgzOS00MWM0LTg2NzUtZmQ5ODQzMDJkNjZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "emojis": "📓👩🎤",
+    "answer": "Misa",
+    "options": ["Misa", "L", "Light"],
+    "image": "",
+    "hint": "📓 Кираг шүтэн бишрэгч, хоёр дахь Death Note эзэмшигч",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 5,
-    "emojis": "🃏❤️♠️🏃🏻",
-    "answer": "Alice in Borderland",
-    "options": ["Alice in Borderland", "Stranger Things", "Kakegurui", "Death Note"],
-    "hint": "🃏 People must play deadly games to survive.",
-    "image": "https://static.wikia.nocookie.net/aliceinborderland/images/8/89/Mainpage_wiki_Joker.png/revision/latest/scale-to-width-down/2560?cb=20260131170806"
+    "emojis": "👁️📓",
+    "answer": "Teru Mikami",
+    "options": ["Soichiro Yagami", "Teru Mikami", "Misa"],
+    "image": "",
+    "hint": "📓 Кираг сүсэгтэн мэт дагагч прокурор залуу",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 6,
-    "emojis": "🚲👧🏻👾🔦",
-    "answer": "Stranger Things",
-    "options": ["Stranger Things", "Alice in Borderland", "Skins", "Uzumaki"],
-    "hint": "🔦 A group of kids discovers a terrifying supernatural world.",
-    "image": "https://dnm.nflximg.net/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTWGrLjDUXHyZZwVT2_kjTXOq8nF8IBgEL5Gp3i97xghSCY3z5nsAKDRMm5qmQ9KNUFFnbWufml7YIz9hVHDoBxpqsrKS_S-VS_5.jpg?r=94b"
+    "emojis": "📓🔍",
+    "answer": "Soichiro Yagami",
+    "options": ["Soichiro Yagami", "L", "Light"],
+    "image": "",
+    "hint": "🔍 Light-ийн эцэг, цагдаагийн дарга",
+    "category": "anime",
+    "meta": { "mode": "hard", "point": 30 }
   },
   {
     "id": 7,
-    "emojis": "🌀👁️🏘️😱",
-    "answer": "Uzumaki",
-    "options": ["Uzumaki", "Black Swan", "Death Note", "Alice in Borderland"],
-    "hint": "🌀 A strange spiral-shaped curse takes over a town.",
-    "image": "https://m.media-amazon.com/images/M/MV5BNzc3OGYwMWEtNDVjYS00MGI3LWIzOGMtZTQ2NjQ3Njk3MzAyXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg"
+    "emojis": "📓🕯️",
+    "answer": "Watari",
+    "options": ["Watari", "L", "Light"],
+    "image": "",
+    "hint": "🕯️ L-ийн итгэлт туслах ахмад настан",
+    "category": "anime",
+    "meta": { "mode": "hard", "point": 30 }
   },
   {
     "id": 8,
-    "emojis": "🎸👩🏻👩🏻❤️💔",
-    "answer": "Nana",
-    "options": ["Nana", "Skins", "Kill Bill", "Black Swan"],
-    "hint": "🎸 Two girls with the same name form a complicated friendship.",
-    "image": "https://m.media-amazon.com/images/M/MV5BYjRmOWJmMDgtYjBjMS00OTg1LWJmZTItZTY2MjJlODgxNmUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "emojis": "🎤🎸",
+    "answer": "Nana Osaki",
+    "options": ["Nana Komatsu", "Nana Osaki", "Ren"],
+    "image": "",
+    "hint": "🎸 Black Stones хамтлагийн гоцлол дуучин бүсгүй",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 9,
-    "emojis": "🦢🩰🖤🤍",
-    "answer": "Black Swan",
-    "options": ["Black Swan", "Kill Bill", "Nana", "Uzumaki"],
-    "hint": "🩰 A ballerina becomes obsessed with perfection and her darker side.",
-    "image": "https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg"
+    "emojis": "🎀👗",
+    "answer": "Nana Komatsu",
+    "options": ["Nana Komatsu", "Nobu", "Reira"],
+    "image": "",
+    "hint": "🎀 Токиод хайр дурлалын араас ирсэн хөгжилтэй НАНА",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
   },
   {
     "id": 10,
-    "emojis": "👩🏻🦰🍺🎸💊🎉",
+    "emojis": "🎸🎤",
+    "answer": "Ren",
+    "options": ["Reira", "Ren", "Nana Osaki"],
+    "image": "",
+    "hint": "🎸 Trapnest хамтлагийн гитарчин залуу",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 11,
+    "emojis": "🎤💔",
+    "answer": "Reira",
+    "options": ["Reira", "Ren", "Nana Komatsu"],
+    "image": "",
+    "hint": "🎤 Trapnest хамтлагийн гоцлол дуучин бүсгүй",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 12,
+    "emojis": "🎤🎶",
+    "answer": "Nobu",
+    "options": ["Reira", "Nobu", "Ren"],
+    "image": "",
+    "hint": "🎤 Black Stones-ийн ая зохиогч гитарчин",
+    "category": "anime",
+    "meta": { "mode": "hard", "point": 30 }
+  },
+  {
+    "id": 13,
+    "emojis": "🃏🎲",
+    "answer": "Yumeko Jabami",
+    "options": ["Mary Saotome", "Yumeko Jabami", "Kirari Momobami"],
+    "image": "",
+    "hint": "🃏 Мөрийтэй тоглоомд донтсон улаан нүдэт сурагч",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 14,
+    "emojis": "🎴👑",
+    "answer": "Kirari Momobami",
+    "options": ["Mary Saotome", "Midari Ikishima", "Kirari Momobami"],
+    "image": "",
+    "hint": "👑 Хяналтын зөвлөлийн хүчирхэг ерөнхийлөгч",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 15,
+    "emojis": "🃏🎓",
+    "answer": "Mary Saotome",
+    "options": ["Yumeko Jabami", "Mary Saotome", "Ryota Suzui"],
+    "image": "",
+    "hint": "🃏 Шаргал үстэй мөрийтэй тоглоомчин охин",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 16,
+    "emojis": "🃏💥",
+    "answer": "Midari Ikishima",
+    "options": ["Midari Ikishima", "Kirari Momobami", "Yumeko Jabami"],
+    "image": "",
+    "hint": "💥 Нэг нүдээ нөхсөн гаж мөрийтэй тоглоомчин",
+    "category": "anime",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 17,
+    "emojis": "🎴🧠",
+    "answer": "Ryota Suzui",
+    "options": ["Ryota Suzui", "Mary Saotome", "Yumeko Jabami"],
+    "image": "",
+    "hint": "🎴 Юмекогоор өрөө төлүүлсэн ангийн хүү",
+    "category": "anime",
+    "meta": { "mode": "hard", "point": 30 }
+  },
+  {
+    "id": 101,
+    "emojis": "🇬🇧💊🎸",
     "answer": "Skins",
-    "options": ["Skins", "Nana", "Stranger Things", "Kakegurui"],
-    "hint": "🎉 Teenagers navigate friendship, love, parties, and self-destruction.",
-    "image": "https://m.media-amazon.com/images/M/MV5BNTBhMjc1ZmMtZDgxMi00ZjdhLWE1ZTktYWQ5YTI0MzE2MTFmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+    "options": ["Skins", "Alice in Borderland", "Stranger Things"],
+    "image": "",
+    "hint": "🇬🇧 Effy Stonem болон Бристолын залуусын амьдралыг харуулсан драма цуврал",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 102,
+    "emojis": "👄💊🖤",
+    "answer": "Effy Stonem",
+    "options": ["Effy Stonem", "Cassie Ainsworth", "Susanna Kaysen"],
+    "image": "",
+    "hint": "👄 Skins цувралын хамгийн алдартай, нууцлаг охин",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 103,
+    "emojis": "🍰✨👧",
+    "answer": "Cassie Ainsworth",
+    "options": ["Cassie Ainsworth", "Effy Stonem", "Lisa Rowe"],
+    "image": "",
+    "hint": "🍰 'Oh wow' гэж хэлэх дуртай, сонин ааштай охин (Skins)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 104,
+    "emojis": "🃏♠️♦️",
+    "answer": "Alice in Borderland",
+    "options": ["Alice in Borderland", "Skins", "Stranger Things"],
+    "image": "",
+    "hint": "🃏 Токиогийн нууцлаг ертөнцөд картаар тоглож амьд үлдэх тэмцэл (AIB)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 105,
+    "emojis": "🎮👟🏙️",
+    "answer": "Arisu",
+    "options": ["Arisu", "Chishiya", "Effy Stonem"],
+    "image": "",
+    "hint": "👟 Тоглоомын хорхойтон, Borderland-д амьд үлдэхийн төлөө тэмцэгч залуу",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 106,
+    "emojis": "🧥🃏😏",
+    "answer": "Chishiya",
+    "options": ["Chishiya", "Arisu", "Eddie Munson"],
+    "image": "",
+    "hint": "🧥 Цагаан капоштой курткатай, маш ухаалаг залуу (Alice in Borderland)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 107,
+    "emojis": "⚔️🟡👘",
+    "answer": "Kill Bill",
+    "options": ["Kill Bill", "Black Swan", "Girl, Interrupted"],
+    "image": "",
+    "hint": "🟡 Шар хослолтой 'The Bride' ба Биллээс өч авах Тарантиногийн кино",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 108,
+    "emojis": "⚔️🟡🩸",
+    "answer": "Beatrix Kiddo (The Bride)",
+    "options": ["Beatrix Kiddo (The Bride)", "O-Ren Ishii", "Gogo Yubari"],
+    "image": "",
+    "hint": "⚔️ Шар хослол, Самурай сэлэмтэй өшөө авагч эмэгтэй (Kill Bill)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 109,
+    "emojis": "❄️🥋🗡️",
+    "answer": "O-Ren Ishii",
+    "options": ["O-Ren Ishii", "Gogo Yubari", "Beatrix Kiddo (The Bride)"],
+    "image": "",
+    "hint": "❄️ Токиогийн Якузагийн тэргүүн, цасан дээрх сэлэмт тулаанч (Kill Bill)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 110,
+    "emojis": "👧⛓️🔨",
+    "answer": "Gogo Yubari",
+    "options": ["Gogo Yubari", "O-Ren Ishii", "Beatrix Kiddo (The Bride)"],
+    "image": "",
+    "hint": "⛓️ Сургуулийн дүрэмт хувцастай, аюултай гинжит зэвсэгтэй охин (Kill Bill)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 111,
+    "emojis": "🚲🧇👹",
+    "answer": "Stranger Things",
+    "options": ["Stranger Things", "Skins", "Alice in Borderland"],
+    "image": "",
+    "hint": "🧇 Упсиде Даун ертөнц ба Элевен охины далд хүч",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 112,
+    "emojis": "🧇👧⚡",
+    "answer": "Eleven",
+    "options": ["Eleven", "Eddie Munson", "Effy Stonem"],
+    "image": "",
+    "hint": "🧇 Вафлид дуртай, далд ухамсрын хүчтэй 011 охин (Stranger Things)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 113,
+    "emojis": "🎸🦇🤘",
+    "answer": "Eddie Munson",
+    "options": ["Eddie Munson", "Eleven", "Arisu"],
+    "image": "",
+    "hint": "🎸 Hellfire Club-ийн ахлагч, гитар дээр Master of Puppets тоглодог залуу",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 114,
+    "emojis": "🩰🦢🖤",
+    "answer": "Black Swan",
+    "options": ["Black Swan", "Girl, Interrupted", "Kill Bill"],
+    "image": "",
+    "hint": "🖤 Цагаан ба Харанхуй хунгийн дүрийг бүтээхээр сэтгэц нь хямрах балерина",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 115,
+    "emojis": "🩰🦢🩸",
+    "answer": "Nina Sayers",
+    "options": ["Nina Sayers", "Lily", "Susanna Kaysen"],
+    "image": "",
+    "hint": "🩰 Балеринагийн төгс дүрийг бүтээхээр сэтгэцийн өөрчлөлтөд ордог гол дүр (Black Swan)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 116,
+    "emojis": "🩰🖤🚬",
+    "answer": "Lily",
+    "options": ["Lily", "Nina Sayers", "Lisa Rowe"],
+    "image": "",
+    "hint": "🚬 Нинагийн өрсөлдөгч, чөлөөтэй ааштай харанхуй балерина (Black Swan)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 117,
+    "emojis": "👭🏥💊",
+    "answer": "Girl, Interrupted",
+    "options": ["Girl, Interrupted", "Black Swan", "Skins"],
+    "image": "",
+    "hint": "🏥 Claymoore сэтгэцийн эмнэлэгт танилцах Сюзанна ба Лиза хоёрын түүх",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 118,
+    "emojis": "👱‍♀️⛓️🔥",
+    "answer": "Lisa Rowe",
+    "options": ["Lisa Rowe", "Susanna Kaysen", "Effy Stonem"],
+    "image": "",
+    "hint": "🔥 Эмнэлгээс оргодог, аюултай бөгөөд дур булаам социопат охин (Angelina Jolie)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
+  },
+  {
+    "id": 119,
+    "emojis": "📝👭🏥",
+    "answer": "Susanna Kaysen",
+    "options": ["Susanna Kaysen", "Lisa Rowe", "Nina Sayers"],
+    "image": "",
+    "hint": "📝 Сэтгэцийн эмнэлэгт хэвтэж тэмдэглэл бичдэг гол эмэгтэй (Winona Ryder)",
+    "category": "movie",
+    "meta": { "mode": "easy", "point": 20 }
   }
 ]

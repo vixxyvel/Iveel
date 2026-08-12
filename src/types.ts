@@ -7,6 +7,12 @@ export interface AnimeQuestion {
   options: string[] | string;
   hint?: string;
   image?: string;
+  category?: 'hero' | 'emoji' | string;
+  anime?: string;
+  meta?: {
+    mode?: string;
+    point?: number;
+  };
 }
 
 export interface ChatMessage {

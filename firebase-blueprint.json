@@ -1,0 +1,19 @@
+{
+  "entities": {
+    "scores": {
+      "title": "Scores",
+      "description": "Leaderboard scores and answer records for the anime quiz",
+      "type": "object",
+      "properties": {
+        "playerName": { "type": "string" },
+        "score": { "type": "number" },
+        "answers": {
+          "type": "array",
+          "items": { "type": "object" }
+        },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["playerName", "score", "createdAt"]
+    }
+  }
+}
